@@ -1,0 +1,36 @@
+# --- Data (large; regenerate via url_features.featurize_dataframe) ---
+data/*.csv
+data/*.parquet
+
+# --- Trained models / artifacts ---
+models/
+*.joblib
+*.pkl
+*.pt
+*.bin
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Claude Code / agent scaffolding ---
+.agents/
+.claude/
+skills-lock.json
+
+# --- Build scaffolding (notebook builders, throwaway) ---
+_build_*.py
+_patch_*.py
