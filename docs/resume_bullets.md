@@ -84,7 +84,7 @@ tuning, oversampling, and a phishing-focused second-stage model.
 
 **Q4. How do the two projects fit together, and why does it matter operationally?**
 `SMS → BERT spam filter → extract URL → URL threat classifier`. In my day job I run the ETL/alerting behind
-90M+ SMS records, where phishing texts carry malicious links. The SMS model catches the *message*; the URL
+94M+ SMS records, where phishing texts carry malicious links. The SMS model catches the *message*; the URL
 model classifies the *payload* — two complementary detectors. This is exactly the split between a
 mobile/SMS-security product and a web-reputation/URL-filtering product.
 

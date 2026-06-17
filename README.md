@@ -18,7 +18,7 @@ score a URL in milliseconds at the moment a message arrives.
 
 ## Motivation
 
-In a fintech messaging operation handling **90M+ SMS records**, the most common abuse vector is a phishing
+In a fintech messaging operation handling **94M+ SMS records**, the most common abuse vector is a phishing
 message carrying a malicious link — OTP-phishing pages, credential-stuffing landing pages with randomized
 subdomains, fake-login defacements. A model that judges a URL **from the string alone** can run inline, before
 any network call, which is exactly what a real-time filter needs.
@@ -151,7 +151,7 @@ See [`data/README.md`](data/README.md).
 ## Professional context
 
 Built by a Data Analyst / Data Engineer on a fintech BI data team, where the day job includes the ETL and
-anomaly-alerting pipeline behind **90M+ SMS delivery records** (Python · Airflow · MySQL · Docker) and an
+anomaly-alerting pipeline behind **94M+ SMS delivery records** (Python · Airflow · MySQL · Docker) and an
 SMS anomaly early-warning system (ABCD severity tiering, P75/P90/P95 thresholds). This project externalizes
 that operational threat experience into a reusable, real-time URL classifier.
 
